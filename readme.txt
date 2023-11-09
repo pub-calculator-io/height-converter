@@ -13,6 +13,8 @@ With the height converter tool, you can easily convert height to cm. Convert bet
 
 With the height converter tool, you can easily convert height to cm. Convert between US units and metric units.
 
+[Height Converter Homepage](https://www.calculator.io/height-converter/ "Height Converter Homepage")
+
 __Shortcode__
 
 Use the Height Converter shortcode:
