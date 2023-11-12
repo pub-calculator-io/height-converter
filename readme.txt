@@ -13,34 +13,35 @@ With the height converter tool, you can easily convert height to cm. Convert bet
 
 With the height converter tool, you can easily convert height to cm. Convert between US units and metric units.
 
-[Height Converter Homepage](https://www.calculator.io/height-converter/ "Height Converter Homepage")
+[https://www.calculator.io/height-converter/](https://www.calculator.io/height-converter/)
 
-__Shortcode__
-
-Use the Height Converter shortcode:
+__Height Converter Shortcode__
 
 `[ci_height_converter]`
-
-Libraries in use:
-1. https://mathjs.org/
-2. https://katex.org/
-3. https://github.com/aFarkas/lazysizes
-4. https://github.com/RobinHerbots/Inputmask
-5. https://air-datepicker.com/
-6. https://www.chartjs.org/
 
 == Installation ==
 
 1. Upload the /ci_height_converter/ folder to the /wp-content/plugins/ directory.
 2. Activate the [Height Converter](https://www.calculator.io/height-converter/ "Height Converter Homepage") plugin through the "Plugins" menu in WordPress.
 
-== Usage ==
+== Height Converter Usage ==
+
 * Add the shortcode `[ci_height_converter]` to your page, post or sidebar.
 * Add the following code: `<?php display_ci_height_converter(); ?>` to your template where you would like the Height Converter to appear.
 
 == Screenshots ==
+
 1. The Height Converter Input Form.
 2. The Height Converter Calculation Results.
+
+== Libraries used in Height Converter ==
+
+1. https://mathjs.org/
+2. https://katex.org/
+3. https://github.com/aFarkas/lazysizes
+4. https://github.com/RobinHerbots/Inputmask
+5. https://air-datepicker.com/
+6. https://www.chartjs.org/
 
 == Changelog ==
 
