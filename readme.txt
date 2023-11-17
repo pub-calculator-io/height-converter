@@ -1,6 +1,6 @@
 === Height Converter by Calculator.iO ===
 Contributors: calculatorio
-Tags: 
+Tags: height converter, height conversion, convert height, cm to feet, feet to cm, inches to cm, cm to inches, meters to feet, feet to meters, height unit conversion
 Requires at least: 5.0
 Tested up to: 6.4.0
 Stable tag: 1.0.0
