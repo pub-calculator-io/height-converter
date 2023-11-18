@@ -1,4 +1,4 @@
-# Height Converter WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# Height Converter Widget for WordPress
 
 With the height converter tool, you can easily convert height to cm. Convert between US units and metric units.
 
