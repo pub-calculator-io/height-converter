@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Height Converter by www.calculator.io
+Plugin Name: CI Height converter
 Plugin URI: https://www.calculator.io/height-converter/
 Description: With the height converter tool, you can easily convert height to cm. Convert between US units and metric units.
 Version: 1.0.0
