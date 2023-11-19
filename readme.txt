@@ -1,4 +1,4 @@
-=== Height Converter ===
+=== Height Converter by www.calculator.io ===
 Contributors: calculatorio
 Tags: height converter, height conversion, convert height, cm to feet, feet to cm, inches to cm, cm to inches, meters to feet, feet to meters, height unit conversion
 Requires at least: 5.0

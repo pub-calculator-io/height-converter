@@ -7,7 +7,7 @@ With the height converter tool, you can easily convert height to cm. Convert bet
 
 ## Installation
 
-1. [Download](https://github.com/pub-calculator-io/age-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
+1. [Download](https://github.com/pub-calculator-io/height-converter/archive/refs/heads/master.zip) the ZIP file of this repository.
 2. Upload the /height-converter-master/ folder to the /wp-content/plugins/ directory.
 3. Activate the [Height Converter](https://www.calculator.io/height-converter/ "Height Converter Homepage") plugin through the "Plugins" menu in WordPress.
 
