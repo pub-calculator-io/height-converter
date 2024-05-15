@@ -24,7 +24,6 @@ Add the following code to your template where you would like the Height Converte
 == Screenshots ==
 
 1. The Height Converter Input Form.
-2. The Height Converter Calculation Results.
 
 == Installation ==
 

@@ -3,7 +3,6 @@
 With the height converter tool, you can easily convert height to cm. Convert between US units and metric units.
 
 ![Height Converter Input Form](/assets/images/screenshot-1.png "Height Converter Input Form")
-![Height Converter Calculation Results](/assets/images/screenshot-2.png "Height Converter Calculation Results")
 
 ## Installation
 

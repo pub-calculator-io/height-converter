@@ -11,10 +11,10 @@ function calculate() {
 
     let ft = '';
     console.log(cmToIn);
-    if(cmToIn >= 12) ft = (` or ${Math.floor(cmToIn / 12)} ft ${roundTo(cmToIn % 12, 2)} inches`);
+    if(cmToIn >= 12) ft = (` or ${plural(Math.floor(cmToIn / 12), 'feet:foot:feet:feet:feet:feet')} ${plural(roundTo(cmToIn % 12, 2), 'inches:inch:inches:inches:inches:inches')}`);
 
-    results.push(`${inches} inches = ${inToCm} cm`);
-    results.push(`${cm} cm = ${cmToIn} inches${ft}`);
+    results.push(`${plural(inches, 'inches:inch:inches:inches:inches:inches')} = ${inToCm} cm`);
+    results.push(`${cm} cm = ${plural(cmToIn, 'inches:inch:inches:inches:inches:inches')} ${ft}`);
 
     _('result').innerHTML = results.join('<br/>');
 }

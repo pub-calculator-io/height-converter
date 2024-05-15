@@ -28,7 +28,7 @@
             <div class="calculator-setting" id="calculator_form">
                 <div class="calculator-content col">
                 	<div class="input-wrapper row">
-                		<label class="input col   ">
+                		<label class="input col bmi-calculator,body-fat-percentage-calculator,ideal-weight-calculator,height-calculator,unit-converter  ">
                 			<p class="input__title">Inches to Centimeters</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="inches" value="56"  />
@@ -38,7 +38,7 @@
                 		
                 		</label>	</div>
                 	<div class="input-wrapper row">
-                		<label class="input col   ">
+                		<label class="input col bmi-calculator,body-fat-percentage-calculator,ideal-weight-calculator,height-calculator,unit-converter  ">
                 			<p class="input__title">Centimeters to Inches</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="centimeters" value="56"  />
@@ -53,13 +53,15 @@
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Convert</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Convert</button>
                 </div>
                 
                 
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
             </div>
         </div>
     </div>
@@ -74,11 +76,10 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col" >
 	<p class="table-cell table-cell--dark table-cell--only-title">Answer</p>
-	<p class="table-cell" id="result">56 inches = 142.24 cm<br/>
+	<p class="table-cell animate" id="result">56 inches = 142.24 cm<br/>
 		56 cm = 22.047 inches or 1 ft 10.05 inches</p>
 </div>
 </span>
